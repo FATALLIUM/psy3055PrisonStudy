@@ -19,6 +19,7 @@ tr,
 td,
 figcaption {
   color: #fffafa;
+  font-family: "Courier New", Courier, monospace;
 }
 
 table {
@@ -116,6 +117,7 @@ h4 {
   font-size: 12pt;
   color: #89B6A5;
   font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .navButton:hover,
