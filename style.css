@@ -1,4 +1,91 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-image: url("https://imgs.search.brave.com/3s9icqQUyvHfcF7v9Rc-I5cOJE_TSJWwQUbCEJKffRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc4Lzlk/Lzc0Lzc4OWQ3NGIx/ZTFkZmQyYWE5MmM1/ZDRlNjU4OGYwZWQ3/LmpwZw");
+  padding-left: 200px;
+  padding-right: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+figcaption {
+  color: #fffafa;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+p {
+  font-size: 16pt;
+}
+
+hr {
+  height: 5px;
+  border: none;
+  background-color: #3c685c;
+}
+
+p,
+figcaption {
+  font-size: 14pt;
+}
+
+h4 {
+  color: #89B6A5;
+  font-size: 15pt;
+}
+
+.image {
+  width: 40%;
+  border: solid 10px #190000;
+  border-radius: 30px;
+  border-top: 30px;
+  border-right: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 50%;
+}
+
+.quoteContainer,
+.container {
+  margin: auto;
+  background-color: #211c22;
+  border: solid 5px white;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.quoteContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navButton {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 12pt;
+  color: #89B6A5;
+  font-weight: bold;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+#spammy {
+  width: 20px;
+  height: 30px;
 }
