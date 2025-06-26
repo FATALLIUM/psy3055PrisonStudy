@@ -122,6 +122,16 @@ h4 {
   color: white;
 }
 
+.articleLink {
+  color: #89B6A5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.articleLink:hover {
+  color: #a8d4c4;
+}
+
 #spammy {
   width: 20px;
   height: 30px;
