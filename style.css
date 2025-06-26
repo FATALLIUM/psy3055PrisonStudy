@@ -99,8 +99,8 @@ h4 {
 .container {
   margin: auto;
   background-color: #211c22;
-  border: solid 5px white;
-  border-radius: 7px;
+  border: solid 2px white;
+  border-radius: 3px;
   width: fit-content;
 }
 
