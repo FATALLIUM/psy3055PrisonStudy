@@ -27,10 +27,12 @@ table {
 }
 
 td,
-th {
+th,
+tr {
   border: 1px solid #e2f3e7;
   text-align: left;
   padding: 8px;
+  height: 20%;
 }
 
 h1 {
@@ -60,12 +62,20 @@ h4 {
 .image {
   width: 40%;
   border: solid 10px #190000;
-  border-radius: 30px;
-  border-top: 30px;
-  border-right: 24px;
+  border-radius: 20px;
+  border-top: 20px;
+  border-right: 18px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tableImg {
+  width: 10%;
+  border: solid 10px #190000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .container {
