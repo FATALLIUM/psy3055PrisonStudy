@@ -22,16 +22,3 @@ function navigatePage(page) {
 function openArticle() {
   window.open('https://www.noropsikiyatriarsivi.com/submission/MGSDosyalar/2025/Erkenbaski/28778-erkenbaski-en-974.pdf', '_blank');
 }
-
-// Add click listeners to table images when page loads
-document.addEventListener('DOMContentLoaded', function() {
-  const tableImages = document.querySelectorAll('.tableImg');
-  tableImages.forEach(img => {
-    img.addEventListener('click', function(e) {
-      e.stopPropagation();
-      if (!this.classList.contains('expanded')) {
-        expandImage(this);
-      }
-    });
-  });
-});
