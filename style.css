@@ -23,19 +23,17 @@ figcaption {
 
 table {
   border-collapse: collapse;
-  width: 90%;
+  width: 100%;
   margin: auto;
-  table-layout: fixed;
 }
 
 td,
 th,
 tr {
-  border: 2px solid #e2f3e7;
+  border: 3px solid #e2f3e7;
   text-align: left;
   padding: 6px;
   height: auto;
-  word-wrap: break-word;
 }
 
 h1 {
@@ -74,7 +72,7 @@ h4 {
 }
 
 .tableImg {
-  width: 80px;
+  width: 100%;
   max-width: 100%;
   height: auto;
   border: solid 3px #190000;
