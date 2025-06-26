@@ -1,10 +1,7 @@
 function navigatePage(page) {
   switch (page) {
-    case 0:
-      window.location.href = "index.html";
-      break;
     case 1:
-      window.location.href = "intro.html";
+      window.location.href = "index.html";
       break;
     case 2:
       window.location.href = "methods.html";
@@ -13,9 +10,11 @@ function navigatePage(page) {
       break;
     case 4: window.location.href = "discussion.html";
       break;
-    default:
+    case 5:
       window.location.href = "worksCited.html";
       break;
-
+    default:
+      window.location.href = "index.html";
+      break;
   }
 }
