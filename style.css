@@ -23,14 +23,14 @@ figcaption {
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
 td,
 th,
 tr {
-  border: 1px solid #e2f3e7;
+  border: 2px solid #e2f3e7;
   text-align: left;
   padding: 8px;
   height: auto;
@@ -73,7 +73,7 @@ h4 {
 
 .tableImg {
   width: 100px;
-  max-width: 100%;
+  max-width: 300px;
   border: solid 5px #190000;
   display: block;
   margin-left: auto;
